@@ -100,3 +100,26 @@ a:link, a:visited {
 a:hover, a:active  {
   color: #000;
 }
+
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*Justify-content is for
+  horizontal.
+  Align-items is for vertical.*/
+
+}
+.logo{
+  width: 100px;
+}
+li{
+  margin: 0 12px;
+}
+
+.nav-buttons a,
+.nav-buttons a:hover{
+  border: 1px solid rgb(211,211,211);
+  border-radius: 4px;
+  padding: 0.25rem 1rem;
+}
